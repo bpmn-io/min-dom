@@ -1,6 +1,6 @@
 {
   "name": "min-dom",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A minimal dom utility toolbelt",
   "scripts": {
     "test": "echo \"no tests\"; exit 1;"
