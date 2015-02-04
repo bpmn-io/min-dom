@@ -1,0 +1,54 @@
+{
+  "name": "min-dom",
+  "version": "0.0.0",
+  "description": "A minimal dom utility toolbelt",
+  "scripts": {
+    "test": "echo \"no tests\"; exit 1;"
+  },
+  "keywords": [
+    "dom",
+    "util",
+    "utility",
+    "minimal",
+    "event",
+    "query",
+    "jquery",
+    "component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bpmn-io/min-dom"
+  },
+  "author": "bpmn.io",
+  "license": "MIT",
+  "browser": {
+    "isArray": "is-array",
+    "each": "foreach",
+    "event": "component-event",
+    "query": "component-query",
+    "classes": "component-classes",
+    "delegate": "component-delegate",
+    "matches-selector": "component-matches-selector",
+    "css": "component-css",
+    "keys": "./vendor/keys.js",
+    "trim": "./vendor/trim.js",
+    "value": "./vendor/value.js",
+    "type": "./vendor/type.js",
+    "text": "./vendor/text.js",
+    "traverse": "./vendor/traverse.js",
+    "props": "./vendor/props.js",
+    "to-function": "./vendor/to-function.js"
+  },
+  "dependencies": {
+    "component-classes": "^1.2.3",
+    "component-closest": "^0.1.4",
+    "component-css": "^0.0.6",
+    "component-delegate": "^0.2.3",
+    "component-event": "^0.1.4",
+    "component-matches-selector": "^0.1.5",
+    "component-query": "^0.0.3",
+    "domify": "^1.3.1",
+    "foreach": "^2.0.5",
+    "is-array": "^1.0.1"
+  }
+}
