@@ -12,11 +12,3 @@ $ browserify index.js --standalone=dom | bundle-collapser | uglifyjs | gzip > mi
 $ du min-dom.min.js.gz
 4    min-dom.min.js.gz
 ```
-
-Bigger when exposing the [component/dom](https://github.com/component/dom) api.
-
-```
-$ browserify dom/index.js --standalone=dom | bundle-collapser | uglifyjs | gzip > dom.min.js.gz
-$ du dom.min.js.gz
-12   dom.min.js.gz
-```
