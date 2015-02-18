@@ -8,5 +8,5 @@ module.exports = {
   event: require('./lib/event'),
   matches: require('./lib/matches'),
   query: require('./lib/query'),
-  remove: require('./lib/query')
+  remove: require('./lib/remove')
 };
