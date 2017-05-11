@@ -23,7 +23,7 @@
   "license": "MIT",
   "dependencies": {
     "component-classes": "^1.2.3",
-    "component-closest": "^0.1.4",
+    "component-closest": "^1.0.1",
     "component-delegate": "^0.2.3",
     "component-event": "^0.1.4",
     "component-matches-selector": "^0.1.5",
