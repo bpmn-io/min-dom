@@ -24,13 +24,13 @@ $ du min-dom.min.js.gz
 The library exposes the following tiny dom helpers:
 
 * `attr` - get and set node attributes
-* `classes` - class name helper; [component-classes](https://github.com/component/classes)
+* `classes` - class name helper
 * `clear` - remove children from a node
 * `closest` - get the closest parent by selector; [component-closest](https://github.com/component/closest)
-* `delegate` - event deletation support; [component-delegate](https://github.com/component/delegate)
+* `delegate` - event deletation support; [delegate-events](https://www.npmjs.com/package/delegate-events)
 * `domify` - html to elements; [domify](https://github.com/component/domify)
 * `event` - event binding; [component-event](https://github.com/component/event)
-* `matches` - selector match check; [component-matches-selector](https://github.com/component/matches-selector)
+* `matches` - selector match check; [matches-selector](https://github.com/ForbesLindesay/matches-selector)
 * `query` - selector query support; [component-query](https://github.com/component/query)
 * `remove` - detach a node from its parent
 

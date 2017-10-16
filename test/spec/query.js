@@ -32,10 +32,10 @@ describe('query', function() {
                       '</div>');
 
     // then
-    expect(query.all('.child', node).length).to.eql(2);
-    expect(query.all('.child:first-child', node).length).to.eql(1);
+    expect(query.all('.child', node)).to.have.length(2);
+    expect(query.all('.child:first-child', node)).to.have.length(1);
 
-    expect(query.all('foo', node).length).to.be.empty;
+    expect(query.all('foo', node)).to.have.length(0);
   });
 
 });
