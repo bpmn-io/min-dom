@@ -1,6 +1,6 @@
 {
   "name": "min-dom",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "A minimal dom utility toolbelt",
   "scripts": {
     "lint": "eslint .",
