@@ -7,15 +7,16 @@ A minimal dom utility toolbelt. Library friendly and based on utilities provided
 
 ## Footprint
 
-Tiny if exposing only the most basic utilities (`event`, `classes`, `delegate`, `matches`, `query`).
+This library is tiny (`2Kb` in size) and still exposes all fundamental utilities:
 
-```
-$ browserify index.js --standalone=dom | \
-      bundle-collapser | \
-      uglifyjs | \
-      gzip > min-dom.min.js.gz
-$ du min-dom.min.js.gz
-4    min-dom.min.js.gz
+```bash
+$ browserify index.js \
+    --standalone=dom \
+    --plugin=tinyify | \
+    gzip > min-dom.min.js.gz
+
+$ du -b *.gz
+1842    min-dom.min.js.gz
 ```
 
 
@@ -31,7 +32,7 @@ The library exposes the following tiny dom helpers:
 * `domify` - html to elements; [domify](https://github.com/component/domify)
 * `event` - event binding; [component-event](https://github.com/component/event)
 * `matches` - selector match check; [matches-selector](https://github.com/ForbesLindesay/matches-selector)
-* `query` - selector query support; [component-query](https://github.com/component/query)
+* `query` - native selector query support
 * `remove` - detach a node from its parent
 
 
