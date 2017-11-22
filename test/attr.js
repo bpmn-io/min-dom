@@ -1,4 +1,4 @@
-var minDom = require('../../'),
+var minDom = require('../'),
     attr = minDom.attr,
     domify = minDom.domify;
 

@@ -3,7 +3,7 @@
   "version": "0.3.0",
   "description": "A minimal dom utility toolbelt",
   "scripts": {
-    "test": "karma start test/config/karma.conf.js --single-run --no-auto-watch"
+    "test": "karma start"
   },
   "keywords": [
     "dom",

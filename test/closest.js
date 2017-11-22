@@ -1,4 +1,4 @@
-var minDom = require('../../'),
+var minDom = require('../'),
     closest = minDom.closest,
     query = minDom.query,
     domify = minDom.domify;

@@ -1,24 +1,22 @@
 module.exports = function(karma) {
   karma.set({
 
-    basePath: '../../',
-
     frameworks: [ 'browserify', 'mocha', 'chai' ],
 
     files: [
-      'test/spec/**/*.js'
+      'test/**/*.js'
     ],
 
     preprocessors: {
-      'test/spec/**/*.js': [ 'browserify' ]
+      'test/**/*.js': [ 'browserify' ]
     },
 
     reporters: [ 'progress' ],
 
     browsers: [ 'PhantomJS' ],
 
-    singleRun: false,
-    autoWatch: true,
+    singleRun: true,
+    autoWatch: false,
 
     // browserify configuration
     browserify: {
