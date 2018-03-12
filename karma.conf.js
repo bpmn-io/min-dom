@@ -1,7 +1,11 @@
 module.exports = function(karma) {
   karma.set({
 
-    frameworks: [ 'browserify', 'mocha', 'chai' ],
+    frameworks: [
+      'browserify',
+      'mocha',
+      'chai'
+    ],
 
     files: [
       'test/**/*.js'
@@ -20,7 +24,10 @@ module.exports = function(karma) {
 
     // browserify configuration
     browserify: {
-      debug: true
+      debug: true,
+      transform: [
+        'babelify'
+      ]
     }
   });
 };

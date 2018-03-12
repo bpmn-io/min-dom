@@ -2,10 +2,14 @@
   "name": "min-dom",
   "version": "1.0.0",
   "description": "A minimal dom utility toolbelt",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "scripts": {
+    "all": "run-s lint test bundle",
+    "bundle": "rollup -c",
     "lint": "eslint .",
-    "test": "karma start",
-    "all": "run-s lint test"
+    "prepublishOnly": "run-s bundle",
+    "test": "karma start"
   },
   "keywords": [
     "dom",
@@ -32,6 +36,9 @@
     "matches-selector": "^1.2.0"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
     "browserify": "^14.4.0",
     "chai": "^4.1.2",
     "eslint": "^4.11.0",
@@ -44,6 +51,11 @@
     "karma-phantomjs-launcher": "^1.0.4",
     "mocha": "^4.0.1",
     "npm-run-all": "^4.1.2",
+    "rollup": "^0.56.5",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.2.0",
+    "rollup-plugin-uglify": "^3.0.0",
     "watchify": "^3.9.0"
   }
 }

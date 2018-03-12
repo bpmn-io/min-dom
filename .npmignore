@@ -1,4 +1,7 @@
-test/
-karma.conf.js
+!dist
+lib
+test
 .travis.yml
 .eslintrc
+karma.conf.js
+rollup.config.js
