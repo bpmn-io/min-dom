@@ -1,7 +1,8 @@
 !dist
 lib
 test
-.travis.yml
+.eslintignore
 .eslintrc
+.travis.yml
 karma.conf.js
 rollup.config.js
