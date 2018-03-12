@@ -1,6 +1,7 @@
 !dist
 lib
 test
+.babelrc
 .eslintignore
 .eslintrc
 .travis.yml
