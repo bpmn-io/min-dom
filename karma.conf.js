@@ -8,11 +8,11 @@ module.exports = function(karma) {
     ],
 
     files: [
-      'test/**/*.js'
+      'test/*.js'
     ],
 
     preprocessors: {
-      'test/**/*.js': [ 'browserify' ]
+      'test/*.js': [ 'browserify' ]
     },
 
     reporters: [ 'progress' ],

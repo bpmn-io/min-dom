@@ -5,11 +5,12 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "scripts": {
-    "all": "run-s lint test bundle",
+    "all": "run-s lint test bundle test:integration",
     "bundle": "rollup -c",
     "lint": "eslint .",
-    "prepublishOnly": "run-s bundle",
-    "test": "karma start"
+    "prepublishOnly": "run-s bundle test:integration",
+    "test": "karma start",
+    "test:integration": "karma start test/integration/karma.conf.js"
   },
   "keywords": [
     "dom",
