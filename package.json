@@ -43,7 +43,7 @@
     "browserify": "^14.4.0",
     "chai": "^4.1.2",
     "eslint": "^4.11.0",
-    "eslint-plugin-mocha": "^4.11.0",
+    "eslint-plugin-bpmn-io": "^0.5.2",
     "karma": "^1.7.1",
     "karma-browserify": "^5.1.1",
     "karma-chai": "^0.1.0",
