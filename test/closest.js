@@ -1,7 +1,8 @@
-var minDom = require('../'),
-    closest = minDom.closest,
-    query = minDom.query,
-    domify = minDom.domify;
+import {
+  closest,
+  domify,
+  query
+} from '../lib';
 
 
 describe('closest', function() {

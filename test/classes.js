@@ -1,6 +1,7 @@
-var minDom = require('../'),
-    classes = minDom.classes,
-    domify = minDom.domify;
+import {
+  classes,
+  domify
+} from '../lib';
 
 
 describe('classes', function() {

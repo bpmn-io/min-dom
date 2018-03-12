@@ -1,6 +1,8 @@
-var minDom = require('../'),
-    query = minDom.query,
-    domify = minDom.domify;
+import {
+  domify,
+  query,
+  queryAll
+} from '../lib';
 
 
 describe('query', function() {
@@ -32,10 +34,10 @@ describe('query', function() {
                       '</div>');
 
     // then
-    expect(query.all('.child', node)).to.have.length(2);
-    expect(query.all('.child:first-child', node)).to.have.length(1);
+    expect(queryAll('.child', node)).to.have.length(2);
+    expect(queryAll('.child:first-child', node)).to.have.length(1);
 
-    expect(query.all('foo', node)).to.have.length(0);
+    expect(queryAll('foo', node)).to.have.length(0);
   });
 
 });

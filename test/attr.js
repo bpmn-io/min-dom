@@ -1,6 +1,7 @@
-var minDom = require('../'),
-    attr = minDom.attr,
-    domify = minDom.domify;
+import {
+  attr,
+  domify
+} from '../lib';
 
 
 describe('attr', function() {

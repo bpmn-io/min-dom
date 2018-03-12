@@ -1,6 +1,7 @@
-var minDom = require('../'),
-    remove = minDom.remove,
-    domify = minDom.domify;
+import {
+  domify,
+  remove
+} from '../lib';
 
 
 describe('remove', function() {

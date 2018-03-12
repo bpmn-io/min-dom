@@ -1,6 +1,7 @@
-var minDom = require('../'),
-    clear = minDom.clear,
-    domify = minDom.domify;
+import {
+  clear,
+  domify
+} from '../lib';
 
 
 describe('clear', function() {

@@ -1,6 +1,7 @@
-var minDom = require('../'),
-    domify = minDom.domify,
-    matches = minDom.matches;
+import {
+  domify,
+  matches
+} from '../lib';
 
 
 describe('matches', function() {
