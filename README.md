@@ -36,6 +36,12 @@ The library exposes the following tiny dom helpers:
 * `remove` - detach a node from its parent
 
 
+## Related 
+
+* [min-dash](https://github.com/bpmn-io/min-dash) - minimal lodash inspired utility toolbelt
+* [tiny-svg](https://github.com/bpmn-io/tiny-svg) - tiny SVG utility toolbelt
+
+
 ## License
 
 MIT
