@@ -29,6 +29,7 @@
   },
   "author": "bpmn.io",
   "license": "MIT",
+  "sideEffects": false,
   "dependencies": {
     "closest": "0.0.1",
     "component-event": "^0.1.4",
