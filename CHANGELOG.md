@@ -6,6 +6,12 @@ All notable changes to [min-dom](https://github.com/bpmn-io/min-dom) are documen
 
 ___Note:__ Yet to be released changes appear here._
 
+## 3.0.0
+
+### Breaking Changes
+
+* `FIX`: remove browser field again; it confuses modern module bundlers. This partially reverts `v2.1.0`
+
 ## 2.2.0
 
 * `CHORE`: mark utils as side-effect free via `sideEffects: false`

@@ -23,6 +23,7 @@ function pgl(plugins=[]) {
   ];
 }
 
+const umdDist = 'dist/min-dom.js';
 
 export default [
   // browser-friendly UMD build
@@ -30,7 +31,7 @@ export default [
     input: 'lib/index.js',
     output: {
       name: 'MinDom',
-      file: pkg.browser,
+      file: umdDist,
       format: 'umd'
     },
     plugins: pgl()
@@ -39,7 +40,7 @@ export default [
     input: 'lib/index.js',
     output: {
       name: 'MinDom',
-      file: pkg.browser.replace(/\.js$/, '.min.js'),
+      file: umdDist.replace(/\.js$/, '.min.js'),
       format: 'umd'
     },
     plugins: pgl([
