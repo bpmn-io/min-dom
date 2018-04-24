@@ -62,6 +62,7 @@
     "rollup-plugin-commonjs": "^9.1.0",
     "rollup-plugin-node-resolve": "^3.2.0",
     "rollup-plugin-uglify": "^3.0.0",
+    "rollup-plugin-copy": "^0.2.3",
     "watchify": "^3.9.0"
   }
 }
