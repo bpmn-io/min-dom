@@ -58,7 +58,6 @@ export namespace event {
   export function unbind<CType extends Function>(el: EventTarget , type: string, fn: CType, capture?: boolean): CType;
 }
 
-export function query<K extends keyof HTMLElementTagNameMap>(selectors: K, el?: HTMLElement): HTMLElementTagNameMap[K] | null;
 export function matches<K extends keyof HTMLElementTagNameMap>(el: HTMLElementTagNameMap[K], selector: K): el is HTMLElementTagNameMap[K];
 export function matches(el: HTMLElement, selector: CSSSelector): boolean;
 
@@ -66,8 +65,8 @@ export function query<K extends keyof HTMLElementTagNameMap>(selectors: K, el?: 
 export function query<K extends keyof SVGElementTagNameMap>(selectors: K, el?: HTMLElement): SVGElementTagNameMap[K] | null;
 export function query<E extends Element = Element>(selectors: string, el?: HTMLElement): E | null;
 
-export function all<K extends keyof HTMLElementTagNameMap>(selectors: K, el?: HTMLElement): NodeListOf<HTMLElementTagNameMap[K]>;
-export function all<K extends keyof SVGElementTagNameMap>(selectors: K, el?: HTMLElement): NodeListOf<SVGElementTagNameMap[K]>;
-export function all<E extends Element = Element>(selectors: string, el?: HTMLElement): NodeListOf<E>;
+export function queryAll<K extends keyof HTMLElementTagNameMap>(selectors: K, el?: HTMLElement): NodeListOf<HTMLElementTagNameMap[K]>;
+export function queryAll<K extends keyof SVGElementTagNameMap>(selectors: K, el?: HTMLElement): NodeListOf<SVGElementTagNameMap[K]>;
+export function queryAll<E extends Element = Element>(selectors: string, el?: HTMLElement): NodeListOf<E>;
 
 export function remove(el: Element): void;
