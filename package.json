@@ -40,6 +40,9 @@
     "indexof": "0.0.1",
     "matches-selector": "^1.2.0"
   },
+  "resolutions": {
+    "matches-selector": "^1.2.0"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
