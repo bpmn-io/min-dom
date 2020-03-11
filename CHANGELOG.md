@@ -6,6 +6,10 @@ All notable changes to [min-dom](https://github.com/bpmn-io/min-dom) are documen
 
 ___Note:__ Yet to be released changes appear here._
 
+## 3.1.2
+
+* `FIX`: make `closest` work inside shadow DOM ([#5](https://github.com/bpmn-io/min-dom/issues/5))
+
 ## 3.1.1
 
 * `FIX`: correct TypeScript export definitions
