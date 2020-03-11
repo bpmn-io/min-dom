@@ -1,3 +1,5 @@
+const browsers = (process.env.TEST_BROWSERS || 'PhantomJS').split(',');
+
 module.exports = function(karma) {
   karma.set({
 
@@ -17,7 +19,7 @@ module.exports = function(karma) {
 
     reporters: [ 'progress' ],
 
-    browsers: [ 'PhantomJS' ],
+    browsers,
 
     singleRun: true,
     autoWatch: false,

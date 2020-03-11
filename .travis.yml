@@ -3,5 +3,8 @@ language: node_js
 node_js:
   - node
 
+addons:
+  firefox: 'latest-esr'
+
 script:
-  - npm run all
+  - TEST_BROWSERS=ChromeHeadless,PhantomJS,Firefox xvfb-run npm run all
