@@ -32,6 +32,7 @@ describe('closest', function() {
                           '<div class="child"></div>' +
                         '</div>' +
                       '</div>');
+
     var child = query('.child', node);
 
     var fragment = document.createDocumentFragment();
@@ -51,28 +52,26 @@ describe('closest', function() {
 
     //  .root
     //    | -> (shadow - This is not a HTML document nor HTML element)
-    //          | -> .innerShadowRoot
-    //                    | -> .innerShadowChild
+    //          | -> .shadowRoot
+    //                    | -> .shadowChild
 
     // given
-    var root = createDivWithClassname('root');
+    var root = domify('<div class="root"></div>');
     var shadow = root.attachShadow({ mode: 'open' });
 
-    var innerShadowRoot = createDivWithClassname('innerShadowRoot');
-    shadow.appendChild(innerShadowRoot);
-    var innerShadowChild = createDivWithClassname('innerShadowChild');
-    innerShadowRoot.appendChild(innerShadowChild);
+    var shadowRoot = domify('<div class="shadowRoot">' +
+                              '<div class="shadowChild"></div>' +
+                            '</div>');
+
+    shadow.appendChild(shadowRoot);
+
+    var shadowChild = query('.shadowChild', shadowRoot);
 
     // then
-    expect(closest(innerShadowChild, '.innerShadowRoot')).to.equal(innerShadowRoot);
-    expect(closest(innerShadowRoot, '.innerShadowRoot', true)).to.equal(innerShadowRoot);
-    expect(closest(innerShadowChild, '.outside')).to.be.null;
+    expect(closest(shadowChild, '.shadowRoot')).to.equal(shadowRoot);
+    expect(closest(shadowRoot, '.shadowRoot', true)).to.equal(shadowRoot);
+    expect(closest(shadowChild, '.outside')).to.be.null;
+    expect(closest(shadowChild, '.root')).to.be.null;
   });
-});
 
-// helper ////
-function createDivWithClassname(className) {
-  var div = document.createElement('div');
-  div.className = className;
-  return div;
-}
+});
