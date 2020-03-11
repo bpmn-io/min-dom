@@ -27,7 +27,7 @@ The library exposes the following tiny dom helpers:
 * `attr` - get and set node attributes
 * `classes` - class name helper
 * `clear` - remove children from a node
-* `closest` - get the closest parent by selector; [component-closest](https://github.com/component/closest)
+* `closest` - get the closest parent by selector;
 * `delegate` - event deletation support; [delegate-events](https://www.npmjs.com/package/delegate-events)
 * `domify` - html to elements; [domify](https://github.com/component/domify)
 * `event` - event binding; [component-event](https://github.com/component/event)
