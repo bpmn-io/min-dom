@@ -1,6 +1,6 @@
 # min-dom
 
-[![Build Status](https://travis-ci.org/bpmn-io/min-dom.svg?branch=master)](https://travis-ci.org/bpmn-io/min-dom)
+[![Build Status](https://travis-ci.com/bpmn-io/min-dom.svg?branch=master)](https://travis-ci.com/bpmn-io/min-dom)
 
 A minimal dom utility toolbelt. Library friendly and based on utilities provided by [component](https://github.com/component).
 
@@ -36,7 +36,7 @@ The library exposes the following tiny dom helpers:
 * `remove` - detach a node from its parent
 
 
-## Related 
+## Related
 
 * [min-dash](https://github.com/bpmn-io/min-dash) - minimal lodash inspired utility toolbelt
 * [tiny-svg](https://github.com/bpmn-io/tiny-svg) - tiny SVG utility toolbelt
