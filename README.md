@@ -1,6 +1,6 @@
 # min-dom
 
-[![Build Status](https://travis-ci.com/bpmn-io/min-dom.svg?branch=master)](https://travis-ci.com/bpmn-io/min-dom)
+[![CI](https://github.com/bpmn-io/min-dom/workflows/CI/badge.svg)](https://github.com/bpmn-io/min-dom/actions?query=workflow%3ACI)
 
 A minimal dom utility toolbelt. Library friendly and based on utilities provided by [component](https://github.com/component).
 
