@@ -1,9 +1,9 @@
+.github
 !dist
 lib
 test
 .babelrc
 .eslintignore
 .eslintrc
-.travis.yml
 karma.conf.js
 rollup.config.js
