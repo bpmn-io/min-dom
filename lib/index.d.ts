@@ -55,7 +55,7 @@ export function domify(dom: string, doc?: HTMLDocument): HTMLElement;
 
 export namespace event {
   export function bind<CType extends Function>(el: EventTarget, type: string, fn: CType, capture?: boolean): CType;
-  export function unbind<CType extends Function>(el: EventTarget , type: string, fn: CType, capture?: boolean): CType;
+  export function unbind<CType extends Function>(el: EventTarget, type: string, fn: CType, capture?: boolean): CType;
 }
 
 export function matches<K extends keyof HTMLElementTagNameMap>(el: HTMLElementTagNameMap[K], selector: K): el is HTMLElementTagNameMap[K];
@@ -70,3 +70,5 @@ export function queryAll<K extends keyof SVGElementTagNameMap>(selectors: K, el?
 export function queryAll<E extends Element = Element>(selectors: string, el?: HTMLElement): NodeListOf<E>;
 
 export function remove(el: Element): void;
+
+export function assignStyle<E extends Element>(element: E, ...styleSources: object): E;

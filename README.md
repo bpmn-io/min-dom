@@ -10,13 +10,10 @@ A minimal dom utility toolbelt. Library friendly and based on utilities provided
 This library is tiny (`2Kb` in size) and still exposes all fundamental utilities:
 
 ```bash
-$ browserify index.js \
-    --standalone=dom \
-    --plugin=tinyify | \
-    gzip > min-dom.min.js.gz
-
-$ du -b *.gz
-1842    min-dom.min.js.gz
+$ npm run distro
+$ gzip dist/min-dom.min.js
+$ du -b dist/*.gz
+2003    min-dom.min.js.gz
 ```
 
 
@@ -24,6 +21,7 @@ $ du -b *.gz
 
 The library exposes the following tiny dom helpers:
 
+* `assignStyle` - add inline styles to a node
 * `attr` - get and set node attributes
 * `classes` - class name helper
 * `clear` - remove children from a node
