@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "strict": true,
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node"
+  },
+  "include": [
+    "node.spec.js",
+    "ts.spec.ts"
+  ]
+}
