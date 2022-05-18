@@ -6,13 +6,14 @@
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "all": "run-s lint test distro",
+    "all": "run-s lint test test:types distro",
     "bundle": "rollup -c",
     "copy": "cpx -v lib/*.d.ts dist",
     "distro": "run-s copy bundle test:integration",
     "lint": "eslint .",
     "prepublishOnly": "run-s distro",
     "test": "karma start",
+    "test:types": "tsc --project test/integration --pretty --noEmit",
     "test:integration": "karma start test/integration/karma.conf.js"
   },
   "keywords": [
@@ -40,6 +41,8 @@
     "min-dash": "^3.8.1"
   },
   "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babelify": "^8.0.0",
@@ -62,6 +65,7 @@
     "rollup-plugin-commonjs": "^9.1.8",
     "rollup-plugin-node-resolve": "^3.4.0",
     "rollup-plugin-uglify": "^6.0.0",
+    "typescript": "^4.6.4",
     "watchify": "^3.9.0"
   }
 }
