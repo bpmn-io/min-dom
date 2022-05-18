@@ -71,4 +71,4 @@ export function queryAll<E extends Element = Element>(selectors: string, el?: HT
 
 export function remove(el: Element): void;
 
-export function assignStyle<E extends Element>(element: E, ...styleSources: object): E;
+export function assignStyle<E extends Element>(element: E, ...styleSources: object[]): E;
