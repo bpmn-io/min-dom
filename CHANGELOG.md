@@ -6,6 +6,10 @@ All notable changes to [min-dom](https://github.com/bpmn-io/min-dom) are documen
 
 ___Note:__ Yet to be released changes appear here._
 
+## 3.2.1
+
+* `FIX`: expose correct types ([#14](https://github.com/bpmn-io/min-dom/issues/14))
+
 ## 3.2.0
 
 * `FEAT`: add `assignStyle` utility
