@@ -29,7 +29,7 @@ The library exposes the following tiny dom helpers:
 * `delegate` - event deletation support; [delegate-events](https://www.npmjs.com/package/delegate-events)
 * `domify` - html to elements; [domify](https://github.com/component/domify)
 * `event` - event binding; [component-event](https://github.com/component/event)
-* `matches` - selector match check; [matches-selector](https://github.com/ForbesLindesay/matches-selector)
+* `matches` - selector match check
 * `query` - native selector query support
 * `remove` - detach a node from its parent
 
