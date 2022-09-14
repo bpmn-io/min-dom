@@ -1,3 +1,5 @@
+/* eslint-env node */
+
 const browsers = (process.env.TEST_BROWSERS || 'ChromeHeadless').split(',');
 
 module.exports = function(karma) {
