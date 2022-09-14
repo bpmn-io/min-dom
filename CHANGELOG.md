@@ -8,12 +8,15 @@ ___Note:__ Yet to be released changes appear here._
 
 ## 4.0.0
 
-* `CHORE`: change library target to `ES2018`
-* `CHORE`: drop `matches` shim
+* `FEAT`: change library target to `ES2018`
+* `FEAT`: drop `matches` shim
+* `FEAT`: drop polyfills for browser not supporting `ES2018`
 
 ### Breaking Changes
 
-* You have to shim `Element#matches` and transpile the code base to targets `< ES2018`
+* You have to shim `Element#matches`
+* Target syntax is `ES2018`. Transpile the code base to target `< ES2018`.
+* Polyfills for browser not supporting `ES2018` are dropped (e.g. Element.classList).
 
 ## 3.2.1
 
