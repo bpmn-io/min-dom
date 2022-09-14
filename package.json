@@ -8,7 +8,6 @@
   "scripts": {
     "all": "run-s lint test test:types distro",
     "bundle": "rollup -c",
-    "copy": "cpx -v lib/*.d.ts dist",
     "distro": "run-s bundle test:integration",
     "lint": "eslint .",
     "prepare": "run-s distro",
@@ -36,7 +35,6 @@
   "dependencies": {
     "component-event": "^0.1.4",
     "domify": "^1.4.1",
-    "indexof": "0.0.1",
     "min-dash": "^3.8.1"
   },
   "devDependencies": {
