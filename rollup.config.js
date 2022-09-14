@@ -6,10 +6,7 @@ import pkg from './package.json';
 
 function pgl(plugins = []) {
   return [
-    nodeResolve({
-      jsnext: true,
-      main: true
-    }),
+    nodeResolve(),
     commonjs(),
     ...plugins
   ];
