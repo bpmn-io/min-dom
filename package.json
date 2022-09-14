@@ -11,7 +11,7 @@
     "copy": "cpx -v lib/*.d.ts dist",
     "distro": "run-s bundle test:integration",
     "lint": "eslint .",
-    "prepublishOnly": "run-s distro",
+    "prepare": "run-s distro",
     "test": "karma start",
     "test:types": "tsc --project test/integration --pretty --noEmit",
     "test:integration": "karma start test/integration/karma.conf.js"
