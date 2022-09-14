@@ -45,10 +45,7 @@ describe('closest', function() {
   });
 
 
-  // Shadow DOM is not supported by PhantomJS headless browser. In order to
-  // execute this test, use 'karma-chrome-launcher' and set the browser to
-  // 'Chrome' in karma.conf.js
-  (window.HTMLShadowElement ? it : it.skip)('should work with shadow dom', function() {
+  it('should work with shadow dom', function() {
 
     //  .root
     //    | -> (shadow - This is not a HTML document nor HTML element)
