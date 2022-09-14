@@ -6,6 +6,15 @@ All notable changes to [min-dom](https://github.com/bpmn-io/min-dom) are documen
 
 ___Note:__ Yet to be released changes appear here._
 
+## 4.0.0
+
+* `FEAT`: target ES2018 and modern browsers
+
+### Breaking changes:
+
+* Package targets ES2018. Use a transpiler to support ES5 or older.
+* Polyfills for browsers without ES2018 support are removed (e.g. Element.classlist).
+
 ## 3.2.1
 
 * `FIX`: expose correct types ([#14](https://github.com/bpmn-io/min-dom/issues/14))
