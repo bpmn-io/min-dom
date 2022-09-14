@@ -1,4 +1,4 @@
-import * as MinDom from '../../lib';
+import * as MinDom from '../..';
 
 import { expect } from 'chai';
 
