@@ -1,7 +1,6 @@
-import { uglify } from 'rollup-plugin-uglify';
-import nodeResolve from 'rollup-plugin-node-resolve';
-import commonjs from 'rollup-plugin-commonjs';
-import babel from 'rollup-plugin-babel';
+import { terser } from 'rollup-plugin-terser';
+import nodeResolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
 
 import pkg from './package.json';
 
@@ -12,13 +11,6 @@ function pgl(plugins=[]) {
       main: true
     }),
     commonjs(),
-    babel({
-      exclude: 'node_modules/**',
-      babelrc: false,
-      presets: [
-        [ 'env', { modules: false } ]
-      ]
-    }),
     ...plugins
   ];
 }
@@ -44,7 +36,7 @@ export default [
       format: 'umd'
     },
     plugins: pgl([
-      uglify()
+      terser()
     ])
   },
   {
