@@ -1,9 +1,0 @@
-.github
-!dist
-lib
-test
-.babelrc
-.eslintignore
-.eslintrc
-karma.conf.js
-rollup.config.js
