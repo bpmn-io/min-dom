@@ -15,4 +15,13 @@ describe('matches', function() {
     expect(matches(node, 'bar')).to.be.false;
   });
 
+
+  it('should match custom element', function() {
+
+    var node = domify('<foo-bar />');
+
+    // then
+    expect(matches(node, 'foo-bar')).to.be.true;
+  });
+
 });
