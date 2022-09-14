@@ -6,6 +6,10 @@ All notable changes to [min-dom](https://github.com/bpmn-io/min-dom) are documen
 
 ___Note:__ Yet to be released changes appear here._
 
+## 4.0.1
+
+* `CHORE`: remove unnecessary deps, script, and .babelrc
+
 ## 4.0.0
 
 * `FEAT`: change library target to `ES2018`
