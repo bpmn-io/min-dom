@@ -1,10 +1,10 @@
-const browsers = (process.env.TEST_BROWSERS || 'PhantomJS').split(',');
+const browsers = (process.env.TEST_BROWSERS || 'ChromeHeadless').split(',');
 
 module.exports = function(karma) {
   karma.set({
 
     frameworks: [
-      'browserify',
+      'webpack',
       'mocha',
       'chai'
     ],
@@ -14,7 +14,7 @@ module.exports = function(karma) {
     ],
 
     preprocessors: {
-      'test/*.js': [ 'browserify' ]
+      'test/*.js': [ 'webpack' ]
     },
 
     reporters: [ 'progress' ],
@@ -24,12 +24,8 @@ module.exports = function(karma) {
     singleRun: true,
     autoWatch: false,
 
-    // browserify configuration
-    browserify: {
-      debug: true,
-      transform: [
-        'babelify'
-      ]
+    webpack: {
+      mode: 'development'
     }
   });
 };
