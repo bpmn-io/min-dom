@@ -6,6 +6,15 @@ All notable changes to [min-dom](https://github.com/bpmn-io/min-dom) are documen
 
 ___Note:__ Yet to be released changes appear here._
 
+## 4.0.0
+
+* `CHORE`: change library target to `ES2018`
+* `CHORE`: drop `matches` shim
+
+### Breaking Changes
+
+* You have to shim `Element#matches` and transpile the code base to targets `< ES2018`
+
 ## 3.2.1
 
 * `FIX`: expose correct types ([#14](https://github.com/bpmn-io/min-dom/issues/14))
