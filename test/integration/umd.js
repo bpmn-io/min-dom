@@ -5,11 +5,13 @@ describe('umd bundle', function() {
   var domify = MinDom.domify;
   var queryAll = MinDom.queryAll;
   var remove = MinDom.remove;
+  var event = MinDom.event;
 
   it('should expose utilities', function() {
     expect(domify).to.exist;
     expect(queryAll).to.exist;
     expect(remove).to.exist;
+    expect(event).to.exist;
   });
 
 
@@ -32,6 +34,12 @@ describe('umd bundle', function() {
     var bars = queryAll('.bar', node);
 
     expect(bars).to.have.length(1);
+
+    var fn = () => {};
+
+    // when
+    event.bind(node, 'click', fn);
+    event.unbind(node, 'click', fn);
   });
 
 });
