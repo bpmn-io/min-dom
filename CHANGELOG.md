@@ -9,6 +9,7 @@ ___Note:__ Yet to be released changes appear here._
 ## 4.0.2
 
 * `FIX`: correctly reexport `component-event` ([#18](https://github.com/bpmn-io/min-dom/pull/18))
+* `CHORE`: generate sourcemaps
 
 ## 4.0.1
 
