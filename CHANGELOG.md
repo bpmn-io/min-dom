@@ -6,6 +6,10 @@ All notable changes to [min-dom](https://github.com/bpmn-io/min-dom) are documen
 
 ___Note:__ Yet to be released changes appear here._
 
+## 4.0.3
+
+* `DEPS`: bump to `min-dash@4`
+
 ## 4.0.2
 
 * `FIX`: correctly reexport `component-event` ([#18](https://github.com/bpmn-io/min-dom/pull/18))
