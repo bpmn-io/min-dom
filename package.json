@@ -33,7 +33,7 @@
   "license": "MIT",
   "sideEffects": false,
   "dependencies": {
-    "component-event": "^0.1.4",
+    "component-event": "^0.2.1",
     "domify": "^1.4.1",
     "min-dash": "^4.0.0"
   },
