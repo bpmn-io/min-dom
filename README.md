@@ -7,13 +7,13 @@ A minimal dom utility toolbelt. Library friendly and based on utilities provided
 
 ## Footprint
 
-This library is tiny (`< 2Kb` in size) and still exposes all fundamental utilities:
+This library is tiny (`2Kb` in size) and still exposes all fundamental utilities:
 
 ```bash
-$ npm run distro
-$ gzip dist/min-dom.min.js
+$ npm run bundle
+$ gzip dist/index.js
 $ du -b dist/*.gz
-1675    min-dom.min.js.gz
+2351    index.js.gz
 ```
 
 
