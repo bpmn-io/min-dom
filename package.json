@@ -35,7 +35,7 @@
   "dependencies": {
     "component-event": "^0.2.1",
     "domify": "^1.4.1",
-    "min-dash": "^4.0.0"
+    "min-dash": "^4.2.1"
   },
   "devDependencies": {
     "@rollup/plugin-babel": "^5.3.1",
