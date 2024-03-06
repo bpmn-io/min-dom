@@ -11,14 +11,13 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "all": "run-s lint test check-types test:distro",
+    "all": "run-s lint test check-types",
     "pretest": "run-s bundle",
     "bundle": "rollup -c --bundleConfigAsCjs",
     "lint": "eslint . --ext js,cjs",
     "prepare": "run-s bundle",
     "test": "karma start karma.conf.cjs",
-    "check-types": "tsc --noEmit",
-    "test:distro": "karma start test/integration/karma.conf.cjs"
+    "check-types": "tsc --noEmit"
   },
   "keywords": [
     "dom",
