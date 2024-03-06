@@ -6,6 +6,17 @@ All notable changes to [min-dom](https://github.com/bpmn-io/min-dom) are documen
 
 ___Note:__ Yet to be released changes appear here._
 
+## 5.0.0
+
+* `CHORE`: turn into ES module
+* `CHORE`: drop UMD distribution
+* `CHORE`: do not inline stable external dependencies
+
+### Breaking Changes
+
+* This is an ES module only package now. Consume in modern browsers.
+* Dropped UMD distribution. Consume as an ES module
+
 ## 4.1.0
 
 * `DEPS`: update to `component-event@0.2.1` ([#19](https://github.com/bpmn-io/min-dom/pull/19))
