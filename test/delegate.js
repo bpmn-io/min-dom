@@ -1,6 +1,6 @@
 import {
   delegate
-} from '../lib';
+} from 'min-dom';
 
 
 describe('delegate', function() {

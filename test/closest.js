@@ -2,7 +2,7 @@ import {
   closest,
   domify,
   query
-} from '../lib';
+} from 'min-dom';
 
 
 describe('closest', function() {

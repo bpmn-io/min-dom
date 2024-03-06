@@ -12,9 +12,8 @@ module.exports = function(karma) {
     ],
 
     files: [
-      'dist/min-dom.min.js',
       { pattern: 'test/integration/module.js', type: 'module' },
-      { pattern: 'dist/index.esm.js', included: false }
+      { pattern: 'dist/index.js', included: false }
     ],
 
     reporters: [ 'progress' ],

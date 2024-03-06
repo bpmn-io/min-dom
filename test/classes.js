@@ -1,7 +1,7 @@
 import {
   classes,
   domify
-} from '../lib';
+} from 'min-dom';
 
 
 describe('classes', function() {

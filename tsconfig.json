@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES2018",
+    "module": "Node16",
+    "moduleResolution": "NodeNext"
+  },
+  "include": [
+    "lib",
+    "test"
+  ]
+}

@@ -2,7 +2,7 @@ import {
   domify,
   query,
   queryAll
-} from '../lib';
+} from 'min-dom';
 
 
 describe('query', function() {
