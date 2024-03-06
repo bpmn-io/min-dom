@@ -10,7 +10,6 @@ module.exports = function(karma) {
 
     files: [
       'dist/min-dom.min.js',
-      'test/integration/umd.js',
       { pattern: 'test/integration/module.js', type: 'module' },
       { pattern: 'dist/index.esm.js', included: false }
     ],
