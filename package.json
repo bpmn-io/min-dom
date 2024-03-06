@@ -37,7 +37,7 @@
   "license": "MIT",
   "sideEffects": false,
   "dependencies": {
-    "domify": "^1.4.1",
+    "domify": "^2.0.0",
     "min-dash": "^4.2.1"
   },
   "devDependencies": {
