@@ -1,7 +1,7 @@
 import {
   domify,
   assignStyle
-} from '../lib';
+} from 'min-dom';
 
 
 describe('style', function() {

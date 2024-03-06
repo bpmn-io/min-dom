@@ -3,7 +3,7 @@ import {
   queryAll,
   remove,
   event
-} from '../../dist/index.esm.js';
+} from '../../dist/index.js';
 
 
 describe('module export', function() {

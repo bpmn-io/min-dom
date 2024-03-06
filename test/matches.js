@@ -1,7 +1,7 @@
 import {
   domify,
   matches
-} from '../lib';
+} from 'min-dom';
 
 
 describe('matches', function() {

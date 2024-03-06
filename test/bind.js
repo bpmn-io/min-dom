@@ -1,6 +1,6 @@
 import {
   event
-} from '../lib';
+} from 'min-dom';
 
 
 describe('event', function() {

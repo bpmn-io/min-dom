@@ -1,7 +1,7 @@
 import {
   attr,
   domify
-} from '../lib';
+} from 'min-dom';
 
 
 describe('attr', function() {

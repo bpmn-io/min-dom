@@ -1,7 +1,7 @@
 import {
   clear,
   domify
-} from '../lib';
+} from 'min-dom';
 
 
 describe('clear', function() {
