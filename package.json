@@ -1,6 +1,6 @@
 {
   "name": "min-dom",
-  "version": "4.1.0",
+  "version": "5.0.0",
   "description": "A minimal dom utility toolbelt",
   "type": "module",
   "exports": {
