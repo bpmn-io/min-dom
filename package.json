@@ -10,6 +10,7 @@
     },
     "./package.json": "./package.json"
   },
+  "types": "./dist/index.d.ts",
   "scripts": {
     "all": "run-s lint test check-types",
     "pretest": "run-s bundle",
