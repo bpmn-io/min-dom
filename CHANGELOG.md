@@ -6,6 +6,12 @@ All notable changes to [min-dom](https://github.com/bpmn-io/min-dom) are documen
 
 ___Note:__ Yet to be released changes appear here._
 
+## 5.1.0
+
+* `FEAT`: optimize `clear`
+* `FEAT`: use native `closest`
+* `FIX`: properly handle missing `element` in `matches`
+
 ## 5.0.0
 
 * `CHORE`: turn into ES module
