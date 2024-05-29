@@ -6,6 +6,10 @@ All notable changes to [min-dom](https://github.com/bpmn-io/min-dom) are documen
 
 ___Note:__ Yet to be released changes appear here._
 
+## 5.1.1
+
+* `CHORE`: revert to basic `clear`
+
 ## 4.2.1
 
 * `CHORE`: revert to basic `clear`
