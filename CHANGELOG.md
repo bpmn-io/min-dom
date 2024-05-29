@@ -6,6 +6,12 @@ All notable changes to [min-dom](https://github.com/bpmn-io/min-dom) are documen
 
 ___Note:__ Yet to be released changes appear here._
 
+## 4.2.0
+
+* `FEAT`: optimize `clear`
+* `FEAT`: use native `closest`
+* `FIX`: properly handle missing `element` in `matches`
+
 ## 4.1.0
 
 * `DEPS`: update to `component-event@0.2.1` ([#19](https://github.com/bpmn-io/min-dom/pull/19))
