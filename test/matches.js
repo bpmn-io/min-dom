@@ -24,4 +24,10 @@ describe('matches', function() {
     expect(matches(node, 'foo-bar')).to.be.true;
   });
 
+
+  it('should handle missing element', function() {
+
+    expect(matches(null, 'foo-bar')).to.be.false;
+  });
+
 });
