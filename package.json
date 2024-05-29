@@ -1,6 +1,6 @@
 {
   "name": "min-dom",
-  "version": "4.2.0",
+  "version": "4.2.1",
   "description": "A minimal dom utility toolbelt",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
