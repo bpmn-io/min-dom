@@ -27,9 +27,10 @@ describe('clear', function() {
     );
 
     // when
-    clear(node);
+    var cleared = clear(node);
 
-    expect(node.childNodes.length).to.eql(0);
+    expect(cleared).to.eql(node);
+    expect(cleared.childNodes.length).to.eql(0);
   });
 
 });
