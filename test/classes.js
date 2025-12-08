@@ -3,6 +3,8 @@ import {
   domify
 } from 'min-dom';
 
+import { expect } from 'chai';
+
 
 describe('classes', function() {
 

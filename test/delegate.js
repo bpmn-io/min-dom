@@ -2,6 +2,8 @@ import {
   delegate
 } from 'min-dom';
 
+import { expect } from 'chai';
+
 
 describe('delegate', function() {
 

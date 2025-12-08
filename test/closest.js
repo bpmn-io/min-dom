@@ -4,6 +4,8 @@ import {
   query
 } from 'min-dom';
 
+import { expect } from 'chai';
+
 
 describe('closest', function() {
 

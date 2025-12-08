@@ -3,6 +3,8 @@ import {
   remove
 } from 'min-dom';
 
+import { expect } from 'chai';
+
 
 describe('remove', function() {
 
