@@ -19,7 +19,7 @@ export default [
   {
     input: 'lib/index.js',
     output: [
-      { file: pkgExport.import, format: 'es', sourcemap: true }
+      { file: pkgExport, format: 'es', sourcemap: true }
     ],
     plugins: pgl()
   }
