@@ -2,6 +2,8 @@ import {
   event
 } from 'min-dom';
 
+import { expect } from 'chai';
+
 
 describe('event', function() {
 

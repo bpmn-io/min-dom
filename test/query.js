@@ -4,6 +4,8 @@ import {
   queryAll
 } from 'min-dom';
 
+import { expect } from 'chai';
+
 
 describe('query', function() {
 

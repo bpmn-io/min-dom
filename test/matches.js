@@ -3,6 +3,8 @@ import {
   matches
 } from 'min-dom';
 
+import { expect } from 'chai';
+
 
 describe('matches', function() {
 

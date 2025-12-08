@@ -3,6 +3,8 @@ import {
   assignStyle
 } from 'min-dom';
 
+import { expect } from 'chai';
+
 
 describe('style', function() {
 
