@@ -4,12 +4,10 @@
   "description": "A minimal dom utility toolbelt",
   "type": "module",
   "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    },
+    ".": "./dist/index.js",
     "./package.json": "./package.json"
   },
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "all": "run-s lint test check-types",
