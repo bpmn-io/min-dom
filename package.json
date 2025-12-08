@@ -37,7 +37,7 @@
   "sideEffects": false,
   "dependencies": {
     "domify": "^2.0.0",
-    "min-dash": "^4.2.1"
+    "min-dash": "^4.2.3"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^29.0.0",
