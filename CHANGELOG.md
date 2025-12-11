@@ -6,6 +6,8 @@ All notable changes to [min-dom](https://github.com/bpmn-io/min-dom) are documen
 
 ___Note:__ Yet to be released changes appear here._
 
+## 5.1.2
+
 * `DEPS`: update to `min-dash@4.2.3`
 * `CHORE`: restore `main` export
 
