@@ -8,7 +8,7 @@ const pkgExport = pkg.exports['.'];
 function pgl(plugins = []) {
   return [
     nodeResolve({
-      resolveOnly: [ 'component-event' ]
+      resolveOnly: [ 'component-event', 'domify' ]
     }),
     commonjs(),
     ...plugins
