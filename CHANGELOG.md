@@ -6,6 +6,10 @@ All notable changes to [min-dom](https://github.com/bpmn-io/min-dom) are documen
 
 ___Note:__ Yet to be released changes appear here._
 
+## 5.3.0
+
+* `DEPS`: update to `domify@3.0.0`
+
 ## 5.2.0
 
 * `DEPS`: update to `min-dash@5.0.0`
